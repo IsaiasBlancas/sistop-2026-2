@@ -16,7 +16,7 @@ def mini_shell():
     while True:
         try:
             # 1. Mostrar el Prompt
-            prompt = f"{os.getcwd()} $ "
+            prompt = "mi_minishel$ "
             entrada = input(prompt).strip()
 
             # Si el usuario no escribe nada, saltar
